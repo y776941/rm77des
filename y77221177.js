@@ -1,7 +1,7 @@
 $(
   '<style>.room.divro.borderg.hand.nosel.fl.rhtt6d50nhr.bord .label-primary{letter-spacing:2px;color:#000!important;margin-left:20px;height:27px;margin-top:190px!important;!important;background-color:#d9534f00!important;text-align:center!important}.room.divro.borderg.hand.nosel.fl.rhtt6d50nhr.bord .corner.fa.fa-user.label.uc.fa-microphone.label-danger{letter-spacing:2px;color:#000!important;margin-left:20px;height:27px;margin-top:190px!important;!important;background-color:#d9534f00!important;text-align:center!important}.room.divro.borderg.hand.nosel.fl.rhtt6d50nhr.bord .dots.mini.u-msg{-webkit-text-fill-color:#fff0}.room.divro.borderg.hand.nosel.fl.rhtt6d50nhr.bord-xwfxp9a{background-image:url(https://up6.cc/2025/04/174565494411541.gif);background-size:100%;border-radius:0 15px 0 15px;display:inline-block;margin-bottom:3px!important;margin-top:2px!important;box-shadow:inset 0 0 0 rgb(0 0 0 / .08),0 0 4px #cf3978;border:2px solid #fff}.room.divro.borderg.hand.nosel.fl.rhtt6d50nhr.bord .fitimg.u-pic.borderg{background-size:0% 0%!important;background-color:transparent!important;border:2px solid transparent!important}.room.divro.borderg.hand.nosel.fl.rhtt6d50nhr.bord .u-topic.dots{-webkit-text-fill-color:#fff0}@keyframes textclip{to{background-position:200% center}}</style>'
 ).insertBefore('body')
-var roomiddal = 'rhtt6d50nhr'
+var roomiddal = 'htt6d50nhr'
 $('style:eq(0)').append(
   '#upro .roomh[onclick="rjoin(\'' +
     roomiddal +
@@ -22,7 +22,7 @@ $('style')
   )
 var moohvip = false
 setInterval(function () {
-  myroom == 'rhtt6d50nhr'
+  myroom == 'htt6d50nhr'
     ? moohvip == false &&
       ((moohvip = true),
       $(
