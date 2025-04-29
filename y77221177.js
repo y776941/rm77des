@@ -25,18 +25,18 @@ setInterval(function () {
   myroom == 'htt6d50nhr'
     ? moohvip == false &&
       ((moohvip = true),
-      $(
-        '#d0, #users, #d2, #mic, #settings, #rooms, #room, #d0, #chats, #d2bc, #muteall, #wall, #dpnl, #upro'
-      ).addClass('mohvip'),
-      $(
-        'input, bdel.corner.btn.minix.btn-primary.fa.fa-times, button.rsave.btn.btn-primary.fl, button.border.btn.label.label-success.fl.fa.fa-plus, button.blike.corner.btn.minix.btn-danger.fa.fa-heart, .fl.borderg, .fl.u-pic.fitimg, .dots, .tc, .label.fl.label-primary, .btn.btn-primary.u-nickc.fr.fa.fa-save, .modal-header.label-primary, .corner.border.label.label-primary,.head.d-flex.nosel.bg.fl, .rsave.btn.btn-primary.fr, .fa.fa-send.sndpm.fl.btn.btn-primary, .fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary, .fr.fa.fa-share-alt.sndfilebc.fl.btn.btn-primary, .bdel.corner.btn.minix.btn-primary.fa.fa-times, .fa.fa-send.sndbc.fl.btn.btn-primary'
-      ).addClass('mohvip'))
-    : moohvip == true &&
-      ((moohvip = false),
-      $(
-        '#d0, #users, #d2, #mic, #settings, #rooms, #room, #d0, #chats, #d2bc, #muteall, #wall, #dpnl, #upro'
-      ).removeClass('mohvip'),
-      $(
-        'input, bdel.corner.btn.minix.btn-primary.fa.fa-times, button.rsave.btn.btn-primary.fl, button.border.btn.label.label-success.fl.fa.fa-plus, button.blike.corner.btn.minix.btn-danger.fa.fa-heart, .fl.borderg, .fl.u-pic.fitimg, .dots, .tc, .label.fl.label-primary, .btn.btn-primary.u-nickc.fr.fa.fa-save, .modal-header.label-primary, .corner.border.label.label-primary, .head.d-flex.nosel.bg.fl, .rsave.btn.btn-primary.fr, .fa.fa-send.sndpm.fl.btn.btn-primary, .fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary, .fr.fa.fa-share-alt.sndfilebc.fl.btn.btn-primary, .bdel.corner.btn.minix.btn-primary.fa.fa-times, .fa.fa-send.sndbc.fl.btn.btn-primary'
-      ).removeClass('mohvip'))
-}, 10)
+       <div id="d0" onclick=" " class="nosel fl bg" style="padding-left: 1px; margin-top: 4px; width: 100%; display: block;">
+                  <label title="المتواجدين" href="#" onclick="$('.pnhead').text($(this).attr('title'));setTimeout(function(){$('#users').scrollTop(0);},100);$('.dpnl').show();$('#usearch').val('');" data-toggle="tab" data-target="#users" style="width: 16%!important;height: 34px; margin-top: -1px;" class="ae fa label label-primary fa-user">
+                      <span class="busers" style="padding:1px 4px;">4</span>
+                  </label>
+                  <button title="المحادثات الخاصه" href="#" style=" height: 34px; margin-top: -1px;width: 17%!important;" onclick="$('.pnhead').text($(this).attr('title'));hl($(this),'primary');setTimeout(function(){$('#users').scrollTop(0);},100);$('.dpnl').show();" data-toggle="tab" data-target="#chats" class="ae fa chats label fa-comment label-primary">
+                      <span class="pmc" style="padding:1px 4px;"></span>خاص
+                  </button>
+                  <button id="brooms" title="غرف الدردشه : 40" href="#" onclick="$('#dpnl').find('.pnhead').text($(this).attr('title'));$('#dpnl').show();" data-toggle="tab" data-target="#rooms" class="ae fa label label-primary fa-users" style="width: 17%;height: 34px; margin-top: -1px;padding: 0 0 0 8px;"><span style="padding:1px 4px;width: 18%!important"></span>الغرف</button>
+                  <button title="الحائط" href="#" onclick="$('.pnhead').text($(this).attr('title'));$('.dpnl').show();setTimeout(function(){$('#d2bc').scrollTop(0);},100);hl($(this),'primary');$(this).find('.bwall').text('');bcc=0;" data-toggle="tab" data-target="#wall" style="height: 34px; margin-top: -1px;width: 22%!important;" class="ae fa label label-primary fa-comment">
+                      <span class="bwall" style="padding:1px 4px;"></span>الحائط</button>
+                  <button title="الإعدادات" href="#" onclick="$('.pnhead').text($(this).attr('title'));$('.dpnl').show();" data-toggle="tab" data-target="#settings" style="height: 34px; margin-top: -1px;width: 17%!important;" class="ae label label-primary fa fa-gear">
+                      <span style="padding:1px 4px;"></span>الضبط</button>
+                  
+                  <br>
+              </div>
