@@ -5,7 +5,7 @@ var roomiddal = 'htt6d50nhr'
 $('style:eq(0)').append(
   '#upro .roomh[onclick="rjoin(\'' +
     roomiddal +
-    '\')"]{border:0 solid #0000;background-size:220% auto;border-radius:10px 0 10px 0px!important;background-image:url(https://up6.cc/2025/04/174588425308651.jpg);background-size:100%;-webkit-text-fill-color:#fafafa}'
+    '\')"]{border:0 solid #0000;background-size:220% auto;border-radius:10px 0 10px 0px!important;background-image:url(https://up6.cc/2025/04/174588698752121.jpg);background-size:100%;-webkit-text-fill-color:#fafafa}'
 )
 $(
   '<style>#mic4{margin-right:8px!important}#mic.mohvip .mic{border:0 solid;animation:huerotate 2s infinite linear;filter:hue-rotate(360deg);box-shadow:0 0 0 #000000,inset 0 0 5px #000000,0 0 0 0 #000;margin:3px;margin-top:1px;height:48px;border-radius:50px!important;background-color:#fff}@keyframes huerotate{0%{filter:hue-rotate(0deg)}100%{filter:hue-rorate(360deg)}}</style>'
